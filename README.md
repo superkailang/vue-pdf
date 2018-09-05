@@ -9,11 +9,13 @@ npm install --save vue-pdf
 ## Example - basic
 ```
 <template>
-  <pdf src="./static/relativity.pdf"></pdf>
+  <pdf src="./static/relativity.pdf">
+  <div></div>
+  </pdf>
 </template>
 
 <script>
-import pdf from 'vue-pdf'
+import pdf from './src/vuePdfNoSss'
 
 export default {
   components: {
